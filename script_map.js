@@ -15,6 +15,7 @@ function switch_region(input) {
     const map = document.querySelector(`.map`);
     console.log(region[actual_region]);
     map.style.backgroundImage = `url('assets/map/${region[actual_region]}.png')`;
+    console.log(map.style.backgroundImage);
 
     const text = document.querySelector(`.text2`);
     text.innerHTML = `${region[actual_region]}`;
