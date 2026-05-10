@@ -13,7 +13,7 @@ function switch_region(input) {
     }
 
     const map = document.querySelector(`.map`);
-    map.style.backgroundImage = `url('assets/map/${region[actual_region].toLowerCase()}.png')`;
+    map.style.backgroundImage = `url('assets/map/${region[actual_region]}.png')`;
 
     const text = document.querySelector(`.text2`);
     text.innerHTML = `${region[actual_region]}`;
